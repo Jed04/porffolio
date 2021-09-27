@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marikina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src= "image/mar3.jpg" id="slider">
+        <ul class="navigation">
+            <li onclick="imgSlider('image/mar3.jpg')"><img src="image/mar3.jpg"></li>
+            <li onclick="imgSlider('image/marshoe.jpg')"><img src="image/marshoe.jpg"></li>
+            <li onclick="imgSlider('image/Marikina River Park (1).gif')"><img src="image/Marikina River Park (1).gif"></li>
+            <li onclick="imgSlider('image/mar.jpg')"><img src="image/mar.jpg"></li>
+            <li onclick="imgSlider('image/mar2.jpg')"><img src="image/mar2.jpg"></li>
+            
+        </ul>
+        <h1>Shoe-Capital</h1>
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.getElementById("slider").src = anything;
+    }
+
+    </script>
+</body>
+</html>
